@@ -1,0 +1,149 @@
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+}
+
+.header {
+  height: 1057px;
+  background: url(../images/header-background.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.logo {
+  box-sizing: border-box;
+
+  font-family: 'Domine', serif;
+  font-size: 20px;
+
+  float: left;
+
+  width: 140px;
+  height: 74px;
+
+  padding: 43px 0 15px 14px;
+
+  border-radius: 0 0 8px 8px;
+
+  text-decoration: none;
+  color: #314a5b;
+
+  background-color: #fa5c65;
+  transition: .25s;
+}
+
+.logo:hover {
+  cursor: pointer;
+  color: #fff;
+}
+
+.logo span {
+  color: #fff;
+  transition: .25s;
+}
+
+.logo:hover span{
+  color: #314a5b;
+}
+
+.menu {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+
+  float: left;
+
+  margin-top: 29px;
+  margin-left: 312px;
+}
+
+.menu li {
+  float: left;
+}
+
+.menu-item {
+  margin-left: 36px;
+
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #263742;
+
+  transition: .25s;
+}
+
+.menu-item:hover {
+  cursor: pointer;
+  color: #fa5c65;
+}
+
+.header-social {
+  float: left;
+
+  margin-top: 25px;
+  margin-left: 8px;
+
+  font-size: 20px;
+  color: #fa5c65;
+}
+
+.header-social i {
+  margin-left: 23px;
+  transition: .25s;
+}
+
+.header-social i:hover {
+  cursor: pointer;
+  color: #314a5b;
+}
+
+.header-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+
+  width: 509px;
+
+  margin-top: 307px;
+
+  text-transform: uppercase;
+  color: #fa5c65;
+}
+
+.header-title span {
+  color: #314a5b;
+}
+
+.header-subtitle {
+  font-size: 20px;
+
+  margin-top: 27px;
+
+  color: #314a5b;
+}
+
+.header-button {
+  display: block;
+
+  font-size: 15px;
+  font-weight: 700;
+
+  width: 171px;
+  height: 64px;
+
+  margin-top: 41px;
+
+  border-radius: 5px;
+
+  line-height: 64px;
+
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+
+  background-color: #fa5c65;
+  transition: .25s;
+}
+
+.header-button:hover {
+  color: #314a5b;
+}
