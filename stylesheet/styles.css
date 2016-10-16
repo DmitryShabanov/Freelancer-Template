@@ -147,3 +147,49 @@ body {
 .header-button:hover {
   color: #314a5b;
 }
+
+.feature-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+
+  margin-top: 83px;
+
+  text-transform: uppercase;
+  color: #465065;
+}
+
+.feature-title i {
+  color: #f0454c;
+}
+
+.feature-text {
+  margin-top: 26px;
+
+  line-height: 22px;
+
+  color: #9aa0ab;
+}
+
+.more-button {
+  display: block;
+
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+
+  margin-top: 27px;
+
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fa5c65;
+
+  transition: .25s;
+}
+
+.more-arrow {
+  margin-left: 9px;
+}
+
+.more-button:hover {
+  color: #465065;
+}
