@@ -255,3 +255,82 @@
 .portfolio-button {
   margin-top: 16px;
 }
+
+.about {
+  height: 393px;
+}
+
+.about-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+
+  margin-top: 48px;
+
+  text-transform: uppercase;
+  color: #314a5b;
+}
+
+.about-title i {
+  color: #f0454c;
+}
+
+.about-subtitle {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+
+  margin-top: 16px;
+
+  color: #9aa0ab;
+}
+
+.about-image {
+  float: left;
+
+  width: 120px;
+  height: 120px;
+
+  margin-top: 40px;
+
+  border-radius: 50%;
+}
+
+.about-info {
+  float: left;
+  margin-left: 16px;
+}
+
+.about-name {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+
+  margin-top: 54px;
+
+  text-transform: uppercase;
+  color: #314a5b;
+}
+
+.about-profession {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+
+  margin-top: 10px;
+
+  color: #f0454c;
+}
+
+.about-text {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+
+  margin-top: 12px;
+
+  line-height: 20px;
+  color: #9aa0ab;
+}
+
+.about-button {
+  float: right;
+  margin-top: 57px;
+}
