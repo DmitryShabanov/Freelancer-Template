@@ -80,12 +80,12 @@
   color: #fa5c65;
 }
 
-.header-social i {
+.header-social-item {
   margin-left: 23px;
   transition: .25s;
 }
 
-.header-social i:hover {
+.header-social-item:hover {
   cursor: pointer;
   color: #314a5b;
 }
@@ -142,6 +142,7 @@
 }
 
 .header-button:hover {
+  cursor: pointer;
   color: #314a5b;
 }
 
@@ -198,6 +199,7 @@
 }
 
 .more-button:hover {
+  cursor: pointer;
   color: #465065;
 }
 
@@ -333,4 +335,44 @@
 .about-button {
   float: right;
   margin-top: 57px;
+}
+
+.footer {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+
+  height: 92px;
+
+  color: #b9c0c6;
+}
+
+.footer-content {
+  border-top: 1px solid #e6eaed;
+}
+
+.footer-social {
+  float: left;
+  margin-top: 33px;
+}
+
+.footer-socil-item {
+  font-size: 16px;
+  font-weight: 700;
+
+  margin-right: 22px;
+
+  text-decoration: none;
+  color: #b9c0c6;
+
+  transition: .25s;
+}
+
+.footer-socil-item:hover {
+  cursor:pointer;
+  color: #fa5c65;
+}
+
+.footer-copyright {
+  float: right;
+  margin-top: 35px;
 }
